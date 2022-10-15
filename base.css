@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #56c5d0;
+    padding: 10px 20px 0px;
+}
+.menu ul{
+    list-style: none;
+    padding: 10px;
+    margin-top: 150px;
+}
+.menu ul li{
+    padding-bottom: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    padding: 30px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content p{
+    text-align: justify;
+    width: 97%;
+    color: #666;
+}
+
+.content ul li, ol li, table tr td, blockquote{
+    color: #666;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+
+.footer {
+    background-color: #0095DA;
+    min-height: 150px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+.footer a{
+    text-decoration: underline;
+    color: #fff;
+}
+table thead th{
+    background-color: #0095DA;
+    color: #e1e1e1;
+}
+
+/** Zebrado */
+table tbody tr:nth-child(even){
+    background-color: #e1e1e1;
+}
+table tbody tr:hover td {
+    background-color: #f8ff94;
+    cursor: pointer;
+}  
+.contato tr td, thead, tbody{
+    background-color: #ffffff;
+
+}
+input, textarea{
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    height: 100px;
+}
+.contato tbody tr:hover td{
+    background-color: #ffffff;
+    
+}
